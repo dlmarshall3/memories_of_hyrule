@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  background-image: url('img/linksawakening.png'); /* background image courtesy of TheDMWarrior on DeviantArt*/ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#game div {
+  border: 1px solid black;
+  width: 14vw;
+  height: 14vw;
+  margin: 10px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, .5)
+}
+
+h1 {
+  display: flex;
+  font-size: 36px;
+  justify-content: center;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+#music {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#music > input {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  background-color: rgba(255, 255, 255, .5);
+  border: 0;
+}
+
+
+
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 25px;
+}
