@@ -100,6 +100,7 @@ function handleCardClick(e) {
     }
   }
   if (flippedCard === COLORS.length) {
+    document.getElementById('ballad').pause();
     document.getElementById('fanfare').play();
     alert('Congratulations!')
 }
